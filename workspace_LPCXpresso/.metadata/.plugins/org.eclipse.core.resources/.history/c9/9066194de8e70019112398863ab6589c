@@ -12,18 +12,12 @@
 #include "lpc17xx_gpio.h"
 #include "lpc17xx_gpdma.h"
 #include "lpc17xx_dac.h"
-#include "lpc17xx_adc.h"
-#define TRUE 1
-#define FALSE 1
 void configTimer0();
 void configGPIO();
 void configDMA();
 void configDAC();
-void configADC();
 int main(){
-	while(TRUE){
 
-	}
     return 0;
 }
 void configTimer0(){

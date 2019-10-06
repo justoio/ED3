@@ -33,6 +33,7 @@ Discarded input sections
  .group         0x00000000        0x8 ./src/FinalProject.o
  .group         0x00000000        0x8 ./src/FinalProject.o
  .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
  .text          0x00000000        0x0 ./src/FinalProject.o
  .data          0x00000000        0x0 ./src/FinalProject.o
  .bss           0x00000000        0x0 ./src/FinalProject.o
@@ -41,7 +42,7 @@ Discarded input sections
  .text.configTimer0
                 0x00000000       0x5c ./src/FinalProject.o
  .text.configDMA
-                0x00000000       0x44 ./src/FinalProject.o
+                0x00000000       0x40 ./src/FinalProject.o
  .text.configGPIO
                 0x00000000        0xc ./src/FinalProject.o
  .text.configDAC
@@ -348,7 +349,7 @@ END GROUP
                 0x20084000                __top_RamAHB32 = 0x20084000
                 0x20084000                __top_RAM2 = 0x20084000
 
-.text           0x00000000      0x3f8
+.text           0x00000000      0x3f0
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -357,10 +358,10 @@ END GROUP
                 0x000000cc                . = ALIGN (0x4)
                 0x000000cc                __section_table_start = .
                 0x000000cc                __data_section_table = .
-                0x000000cc        0x4 LONG 0x3f8 LOADADDR (.data)
+                0x000000cc        0x4 LONG 0x3f0 LOADADDR (.data)
                 0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
                 0x000000d4        0x4 LONG 0x0 SIZEOF (.data)
-                0x000000d8        0x4 LONG 0x3f8 LOADADDR (.data_RAM2)
+                0x000000d8        0x4 LONG 0x3f0 LOADADDR (.data_RAM2)
                 0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x000000e4                __data_section_table_end = .
@@ -431,46 +432,46 @@ END GROUP
                 0x00000300                PROVIDE (__CRP_WORD_END__, .)
                 0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
  *(.text*)
- .text.main     0x00000300       0x10 ./src/FinalProject.o
+ .text.main     0x00000300        0x8 ./src/FinalProject.o
                 0x00000300                main
  .text.SystemInit
-                0x00000310       0xe4 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
-                0x00000310                SystemInit
+                0x00000308       0xe4 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000308                SystemInit
  .text.__weak_main
-                0x000003f4        0x4 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
-                0x000003f4                __weak_main
-                0x000003f4                __main
+                0x000003ec        0x4 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x000003ec                __weak_main
+                0x000003ec                __main
  *(.rodata .rodata.* .constdata .constdata.*)
-                0x000003f8                . = ALIGN (0x4)
+                0x000003f0                . = ALIGN (0x4)
 
-.glue_7         0x000003f8        0x0
- .glue_7        0x000003f8        0x0 linker stubs
+.glue_7         0x000003f0        0x0
+ .glue_7        0x000003f0        0x0 linker stubs
 
-.glue_7t        0x000003f8        0x0
- .glue_7t       0x000003f8        0x0 linker stubs
+.glue_7t        0x000003f0        0x0
+ .glue_7t       0x000003f0        0x0 linker stubs
 
-.vfp11_veneer   0x000003f8        0x0
- .vfp11_veneer  0x000003f8        0x0 linker stubs
+.vfp11_veneer   0x000003f0        0x0
+ .vfp11_veneer  0x000003f0        0x0 linker stubs
 
-.v4_bx          0x000003f8        0x0
- .v4_bx         0x000003f8        0x0 linker stubs
+.v4_bx          0x000003f0        0x0
+ .v4_bx         0x000003f0        0x0 linker stubs
 
-.iplt           0x000003f8        0x0
- .iplt          0x000003f8        0x0 ./src/FinalProject.o
+.iplt           0x000003f0        0x0
+ .iplt          0x000003f0        0x0 ./src/FinalProject.o
 
-.rel.dyn        0x000003f8        0x0
- .rel.iplt      0x000003f8        0x0 ./src/FinalProject.o
+.rel.dyn        0x000003f0        0x0
+ .rel.iplt      0x000003f0        0x0 ./src/FinalProject.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000003f8                __exidx_start = .
+                0x000003f0                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000003f8                __exidx_end = .
-                0x000003f8                _etext = .
+                0x000003f0                __exidx_end = .
+                0x000003f0                _etext = .
 
-.data_RAM2      0x2007c000        0x0 load address 0x000003f8
+.data_RAM2      0x2007c000        0x0 load address 0x000003f0
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM2, .)
  *(.ramfunc.$RAM2)
@@ -486,7 +487,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000        0x0 load address 0x000003f8
+.data           0x10000000        0x0 load address 0x000003f0
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
@@ -495,7 +496,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _edata = .
 
-.igot.plt       0x10000000        0x0 load address 0x000003f8
+.igot.plt       0x10000000        0x0 load address 0x000003f0
  .igot.plt      0x10000000        0x0 ./src/FinalProject.o
 
 .bss_RAM2       0x2007c000        0x0
@@ -555,42 +556,43 @@ OUTPUT(FinalProject.axf elf32-littlearm)
  .debug_ranges  0x00000038       0x70 ./src/cr_startup_lpc175x_6x.o
  .debug_ranges  0x000000a8       0x18 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_macro    0x00000000     0x2992
- .debug_macro   0x00000000       0xa8 ./src/FinalProject.o
- .debug_macro   0x000000a8      0x88c ./src/FinalProject.o
- .debug_macro   0x00000934       0x1c ./src/FinalProject.o
- .debug_macro   0x00000950       0x2e ./src/FinalProject.o
- .debug_macro   0x0000097e       0x10 ./src/FinalProject.o
- .debug_macro   0x0000098e      0x12d ./src/FinalProject.o
- .debug_macro   0x00000abb      0x5b2 ./src/FinalProject.o
- .debug_macro   0x0000106d       0x18 ./src/FinalProject.o
- .debug_macro   0x00001085      0x7af ./src/FinalProject.o
- .debug_macro   0x00001834      0x2c7 ./src/FinalProject.o
- .debug_macro   0x00001afb       0x63 ./src/FinalProject.o
- .debug_macro   0x00001b5e       0xe4 ./src/FinalProject.o
- .debug_macro   0x00001c42       0x46 ./src/FinalProject.o
- .debug_macro   0x00001c88      0x2ae ./src/FinalProject.o
- .debug_macro   0x00001f36       0x40 ./src/FinalProject.o
- .debug_macro   0x00001f76       0x1d ./src/cr_startup_lpc175x_6x.o
- .debug_macro   0x00001f93       0x1a ./src/crp.o
- .debug_macro   0x00001fad       0x34 ./src/crp.o
- .debug_macro   0x00001fe1      0x12b C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x0000210c      0x886 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_macro    0x00000000     0x2a92
+ .debug_macro   0x00000000       0xbd ./src/FinalProject.o
+ .debug_macro   0x000000bd      0x88c ./src/FinalProject.o
+ .debug_macro   0x00000949       0x1c ./src/FinalProject.o
+ .debug_macro   0x00000965       0x2e ./src/FinalProject.o
+ .debug_macro   0x00000993       0x10 ./src/FinalProject.o
+ .debug_macro   0x000009a3      0x12d ./src/FinalProject.o
+ .debug_macro   0x00000ad0      0x5b2 ./src/FinalProject.o
+ .debug_macro   0x00001082       0x18 ./src/FinalProject.o
+ .debug_macro   0x0000109a      0x7af ./src/FinalProject.o
+ .debug_macro   0x00001849      0x2c7 ./src/FinalProject.o
+ .debug_macro   0x00001b10       0x63 ./src/FinalProject.o
+ .debug_macro   0x00001b73       0xe4 ./src/FinalProject.o
+ .debug_macro   0x00001c57       0x46 ./src/FinalProject.o
+ .debug_macro   0x00001c9d      0x2ae ./src/FinalProject.o
+ .debug_macro   0x00001f4b       0x40 ./src/FinalProject.o
+ .debug_macro   0x00001f8b       0xeb ./src/FinalProject.o
+ .debug_macro   0x00002076       0x1d ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00002093       0x1a ./src/crp.o
+ .debug_macro   0x000020ad       0x34 ./src/crp.o
+ .debug_macro   0x000020e1      0x12b C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000220c      0x886 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_line     0x00000000      0x611
- .debug_line    0x00000000      0x2f1 ./src/FinalProject.o
- .debug_line    0x000002f1       0xd5 ./src/cr_startup_lpc175x_6x.o
- .debug_line    0x000003c6       0x78 ./src/crp.o
- .debug_line    0x0000043e      0x1d3 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_line     0x00000000      0x628
+ .debug_line    0x00000000      0x308 ./src/FinalProject.o
+ .debug_line    0x00000308       0xd5 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x000003dd       0x78 ./src/crp.o
+ .debug_line    0x00000455      0x1d3 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_str      0x00000000     0xa9f7
- .debug_str     0x00000000     0xa214 ./src/FinalProject.o
-                               0xa29f (size before relaxing)
- .debug_str     0x0000a214      0x1c2 ./src/cr_startup_lpc175x_6x.o
+.debug_str      0x00000000     0xb14c
+ .debug_str     0x00000000     0xa969 ./src/FinalProject.o
+                               0xa9f4 (size before relaxing)
+ .debug_str     0x0000a969      0x1c2 ./src/cr_startup_lpc175x_6x.o
                                0x26d5 (size before relaxing)
- .debug_str     0x0000a3d6       0xe9 ./src/crp.o
+ .debug_str     0x0000ab2b       0xe9 ./src/crp.o
                                0x25ed (size before relaxing)
- .debug_str     0x0000a4bf      0x538 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_str     0x0000ac14      0x538 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
                                0x8160 (size before relaxing)
 
 .comment        0x00000000       0xdc
@@ -615,7 +617,7 @@ OUTPUT(FinalProject.axf elf32-littlearm)
  .ARM.attributes
                 0x000000cc       0x33 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
 
-.debug_frame    0x00000000      0x28c
- .debug_frame   0x00000000       0xe0 ./src/FinalProject.o
- .debug_frame   0x000000e0      0x170 ./src/cr_startup_lpc175x_6x.o
- .debug_frame   0x00000250       0x3c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_frame    0x00000000      0x284
+ .debug_frame   0x00000000       0xd8 ./src/FinalProject.o
+ .debug_frame   0x000000d8      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x00000248       0x3c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)

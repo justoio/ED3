@@ -573,3 +573,59 @@ arm-none-eabi-size "FinalProject.axf"; # arm-none-eabi-objcopy -v -O binary "Fin
    text	   data	    bss	    dec	    hex	filename
    1016	      0	      0	   1016	    3f8	FinalProject.axf
  
+00:20:52 **** Incremental Build of configuration Debug for project CMSISv2p00_LPC17xx ****
+make -r all 
+make: Nothing to be done for `all'.
+00:20:56 **** Incremental Build of configuration Debug for project FinalProject ****
+make -r all 
+Building file: ../src/FinalProject.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\inc" -I"C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Drivers\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FinalProject.d" -MT"src/FinalProject.o" -MT"src/FinalProject.d" -o "src/FinalProject.o" "../src/FinalProject.c"
+../src/FinalProject.c: In function 'configDMA':
+../src/FinalProject.c:52:33: warning: left shift count >= width of type [-Wshift-count-overflow]
+     struct_lli_dma.Control=60|(2<<32)|(2<<21)&(1<<26);//DMA size
+                                 ^
+../src/FinalProject.c:52:38: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+     struct_lli_dma.Control=60|(2<<32)|(2<<21)&(1<<26);//DMA size
+                                      ^
+../src/FinalProject.c:54:5: warning: statement with no effect [-Wunused-value]
+     struct_ch_dma.ChannelNum;
+     ^
+../src/FinalProject.c:55:5: warning: statement with no effect [-Wunused-value]
+     struct_ch_dma.SrcMemAddr;
+     ^
+../src/FinalProject.c:56:5: warning: statement with no effect [-Wunused-value]
+     struct_ch_dma.DstMemAddr;
+     ^
+../src/FinalProject.c:57:5: warning: statement with no effect [-Wunused-value]
+     struct_ch_dma.TransferSize;
+     ^
+../src/FinalProject.c:58:5: warning: statement with no effect [-Wunused-value]
+     struct_ch_dma.TransferWidth;
+     ^
+../src/FinalProject.c:59:5: warning: statement with no effect [-Wunused-value]
+     struct_ch_dma.TransferType;
+     ^
+../src/FinalProject.c:60:5: warning: statement with no effect [-Wunused-value]
+     struct_ch_dma.SrcConn;
+     ^
+../src/FinalProject.c:61:5: warning: statement with no effect [-Wunused-value]
+     struct_ch_dma.DstConn;
+     ^
+Finished building: ../src/FinalProject.c
+ 
+Building target: FinalProject.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="FinalProject.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "FinalProject_Debug.ld" -o "FinalProject.axf"  ./src/FinalProject.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o   -lCMSISv2p00_LPC17xx
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        1008 B       512 KB      0.19%
+        RamLoc32:          0 GB        32 KB      0.00%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: FinalProject.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "FinalProject.axf"; # arm-none-eabi-objcopy -v -O binary "FinalProject.axf" "FinalProject.bin" ; # checksum -p LPC1769 -d "FinalProject.bin";
+   text	   data	    bss	    dec	    hex	filename
+   1008	      0	      0	   1008	    3f0	FinalProject.axf
+ 
