@@ -24,12 +24,10 @@ void configDAC();
 void configADC();
 void configUART();
 void configPIN();
-/**************************Main Program****************************/
 int main(){
 	while(TRUE){}
     return FALSE;
 }
-/**************************Configurations****************************/
 void configTIMERS(){
     TIM_TIMERCFG_Type struct_timer;
     TIM_MATCHCFG_Type struct_match;
@@ -84,34 +82,8 @@ void configGPIO(){return;}
 void configDAC(){return;}
 void configADC(){return;}
 void configPIN(){return;}
-/**************************Handlers****************************/
-void UART0_IRQHandler(void){
-		uint32_t intsrc, tmp, tmp1;
-		//Determina la fuente de interrupción
-		intsrc = UART_GetIntId(LPC_UART0);
-		tmp = intsrc & UART_IIR_INTID_MASK;
-		// Evalúa Line Status
-		if (tmp == UART_IIR_INTID_RLS){
-				tmp1 = UART_GetLineStatus(LPC_UART0);
-				tmp1 &= (UART_LSR_OE | UART_LSR_PE | UART_LSR_FE  | UART_LSR_BI | UART_LSR_RXFE);
-				// ingresa a un Loop infinito si hay error
-				if (tmp1) {
-						while(1){};
-				}
-		}
-		// Receive Data Available or Character time-out
-		if ((tmp == UART_IIR_INTID_RDA) || (tmp == UART_IIR_INTID_CTI)){
-				UART_IntReceive();
 
-		}
-		return;
-}
-/*************************Others********************************************/
 
-void UART_IntReceive(void){
-	/*
-	UART_Receive(LPC_UART0, info, sizeof(info), NONE_BLOCKING);
-	return;
-	*/
-}
+
+
 

@@ -29,7 +29,7 @@ all: FinalProject.axf
 FinalProject.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="FinalProject.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "FinalProject_Debug.ld" -o "FinalProject.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="FinalProject.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "FinalProject_Debug.ld" -o "FinalProject.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

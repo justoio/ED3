@@ -107,11 +107,9 @@ void UART0_IRQHandler(void){
 		return;
 }
 /*************************Others********************************************/
-
+/*
 void UART_IntReceive(void){
-	/*
 	UART_Receive(LPC_UART0, info, sizeof(info), NONE_BLOCKING);
 	return;
-	*/
 }
-
+*/
