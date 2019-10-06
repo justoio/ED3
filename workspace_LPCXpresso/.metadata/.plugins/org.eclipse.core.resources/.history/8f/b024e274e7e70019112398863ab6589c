@@ -43,7 +43,7 @@ void configDMA(){
     struct_lli_dma.SrcAddr=(uint32_t)0x00000000;
     struct_lli_dma.DstAddr=(uint32_t)&(LPC_DAC->DACR);
     struct_lli_dma.NextLLI=(uint32_t)&struct_lli_dma;
-    struct_lli_dma.Control=60|(2<<32)|(2<<21)&(1<<26);//DMA size
+    struct_lli_dma.Control=60|(2<<32)|(2<<21)|(1<<26);//DMA size
     GPDMA_Init();
     struct_ch_dma.ChannelNum;
     struct_ch_dma.SrcMemAddr;

@@ -1,0 +1,621 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                              ./src/cr_startup_lpc175x_6x.o (SystemInit)
+C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+                              ./src/FinalProject.o (GPDMA_Init)
+C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+                              C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o) (check_failed)
+C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+                              ./src/FinalProject.o (TIM_Init)
+C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+                              C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o) (CLKPWR_SetPCLKDiv)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc175x_6x.o (__main)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_64.o)
+                              C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+                              c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_64.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/FinalProject.o
+ .text          0x00000000        0x0 ./src/FinalProject.o
+ .data          0x00000000        0x0 ./src/FinalProject.o
+ .bss           0x00000000        0x0 ./src/FinalProject.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x30 ./src/FinalProject.o
+ .text.configTimer0
+                0x00000000       0x5c ./src/FinalProject.o
+ .text.configDMA
+                0x00000000       0x44 ./src/FinalProject.o
+ .text.configGPIO
+                0x00000000        0xc ./src/FinalProject.o
+ .text.configDAC
+                0x00000000        0xc ./src/FinalProject.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc175x_6x.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00000000      0x88c ./src/cr_startup_lpc175x_6x.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0x88c ./src/crp.o
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .data          0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000       0xb4 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .data.SystemCoreClock
+                0x00000000        0x4 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x12d C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x1c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x2e C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x18 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x7af C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x2c7 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .text          0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .data          0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .bss           0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .text.GPDMA_Init
+                0x00000000       0x3c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .text.GPDMA_Setup
+                0x00000000      0x19c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .text.GPDMA_ChannelCmd
+                0x00000000       0x1c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .text.GPDMA_IntGetStatus
+                0x00000000       0x60 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .text.GPDMA_ClearIntPending
+                0x00000000       0x3c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .data.pGPDMACh
+                0x00000000       0x20 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .rodata.GPDMA_LUTPerAddr
+                0x00000000       0x60 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .rodata.GPDMA_LUTPerWid
+                0x00000000       0x18 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .rodata.str1.1
+                0x00000000       0x1f C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .rodata.GPDMA_LUTPerBurst
+                0x00000000       0x18 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_info    0x00000000     0x101f C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_abbrev  0x00000000      0x254 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_loc     0x00000000       0xf7 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_aranges
+                0x00000000       0x40 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_ranges  0x00000000       0x30 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000       0xa9 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000      0x886 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000       0x1c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000       0x2e C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000       0x10 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000      0x12d C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000       0x18 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000      0x7af C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000      0x2c7 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000       0x63 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000      0x2a8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000      0x2f1 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000       0xdd C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_line    0x00000000      0x321 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_str     0x00000000     0xabbc C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .comment       0x00000000       0x6f C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_frame   0x00000000       0x90 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .ARM.attributes
+                0x00000000       0x33 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .text          0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .data          0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .bss           0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .text.check_failed
+                0x00000000        0x2 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_info    0x00000000       0xc3 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_abbrev  0x00000000       0x6f C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_aranges
+                0x00000000       0x20 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_ranges  0x00000000       0x10 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x00000000       0x5a C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x00000000      0x886 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x00000000       0x10 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x00000000      0x12d C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x00000000       0x5d C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x00000000       0xd7 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_line    0x00000000      0x1ac C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_str     0x00000000     0x3f7a C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .comment       0x00000000       0x6f C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_frame   0x00000000       0x20 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .ARM.attributes
+                0x00000000       0x33 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text          0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .data          0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .bss           0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_GetIntStatus
+                0x00000000       0x54 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_GetIntCaptureStatus
+                0x00000000       0x58 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_ClearIntPending
+                0x00000000       0x4c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_ClearIntCapturePending
+                0x00000000       0x50 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_ConfigStructInit
+                0x00000000       0x10 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_Init
+                0x00000000      0x17c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_DeInit
+                0x00000000       0x70 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_Cmd  0x00000000       0x48 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_ResetCounter
+                0x00000000       0x48 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_ConfigMatch
+                0x00000000       0xf4 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_UpdateMatchValue
+                0x00000000       0x58 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_ConfigCapture
+                0x00000000       0x94 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .text.TIM_GetCaptureValue
+                0x00000000       0x50 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .rodata.str1.1
+                0x00000000       0x1f C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_info    0x00000000      0xb4c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_abbrev  0x00000000      0x2b0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_loc     0x00000000      0x698 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_aranges
+                0x00000000       0x80 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_ranges  0x00000000       0x70 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000       0xb2 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000      0x886 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000       0x1c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000       0x2e C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000      0x12d C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000       0x18 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000      0x7af C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000      0x2c7 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000       0x63 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000       0xe4 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000      0x2f1 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000      0x145 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_macro   0x00000000       0xdd C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_line    0x00000000      0x4c8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_str     0x00000000     0xa37f C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .comment       0x00000000       0x6f C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .debug_frame   0x00000000      0x170 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .ARM.attributes
+                0x00000000       0x33 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_timer.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .text          0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .data          0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .bss           0x00000000        0x0 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_SetPCLKDiv
+                0x00000000       0x50 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_GetPCLKSEL
+                0x00000000       0x20 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_GetPCLK
+                0x00000000       0x28 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_ConfigPPWR
+                0x00000000       0x38 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_Sleep
+                0x00000000       0x10 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_DeepSleep
+                0x00000000       0x1c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_PowerDown
+                0x00000000       0x1c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_DeepPowerDown
+                0x00000000       0x1c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_info    0x00000000      0x650 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_abbrev  0x00000000      0x1e5 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_loc     0x00000000      0x1a9 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_aranges
+                0x00000000       0x58 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_ranges  0x00000000       0x48 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000       0x8d C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000      0x886 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000       0x1c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000       0x2e C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000       0x10 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000      0x12d C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000       0x18 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000      0x7af C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000      0x2c7 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000       0x63 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000      0x2f1 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_line    0x00000000      0x2c4 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_str     0x00000000     0x936b C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .comment       0x00000000       0x6f C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_frame   0x00000000       0xa8 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .ARM.attributes
+                0x00000000       0x33 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .text.__aeabi_division_ldivmod
+                0x00000000       0x26 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .text.__aeabi_division_uldivmod
+                0x00000000      0x174 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .ARM.attributes
+                0x00000000       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .text.__aeabi_division_idiv0
+                0x00000000        0x2 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .ARM.attributes
+                0x00000000       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/FinalProject.o
+LOAD ./src/cr_startup_lpc175x_6x.o
+LOAD ./src/crp.o
+LOAD C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_MFlash512 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x2007c000                __base_RamAHB32 = 0x2007c000
+                0x2007c000                __base_RAM2 = 0x2007c000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x20084000                __top_RAM2 = 0x20084000
+
+.text           0x00000000      0x3f8
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc175x_6x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x3f8 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x0 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x3f8 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000000 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x0 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x144 ./src/cr_startup_lpc175x_6x.o
+                0x000000f4                data_init
+                0x00000138                bss_init
+                0x00000170                ResetISR
+                0x000001e8                NMI_Handler
+                0x000001f0                HardFault_Handler
+                0x000001f8                MemManage_Handler
+                0x00000200                BusFault_Handler
+                0x00000208                UsageFault_Handler
+                0x00000210                SVC_Handler
+                0x00000218                DebugMon_Handler
+                0x00000220                PendSV_Handler
+                0x00000228                SysTick_Handler
+                0x00000230                EINT3_IRQHandler
+                0x00000230                CANActivity_IRQHandler
+                0x00000230                TIMER3_IRQHandler
+                0x00000230                UART0_IRQHandler
+                0x00000230                UART1_IRQHandler
+                0x00000230                EINT2_IRQHandler
+                0x00000230                USBActivity_IRQHandler
+                0x00000230                IntDefaultHandler
+                0x00000230                PLL0_IRQHandler
+                0x00000230                I2C0_IRQHandler
+                0x00000230                I2C1_IRQHandler
+                0x00000230                SSP0_IRQHandler
+                0x00000230                I2S_IRQHandler
+                0x00000230                I2C2_IRQHandler
+                0x00000230                RTC_IRQHandler
+                0x00000230                TIMER0_IRQHandler
+                0x00000230                SPI_IRQHandler
+                0x00000230                RIT_IRQHandler
+                0x00000230                EINT1_IRQHandler
+                0x00000230                TIMER1_IRQHandler
+                0x00000230                UART2_IRQHandler
+                0x00000230                ADC_IRQHandler
+                0x00000230                SSP1_IRQHandler
+                0x00000230                USB_IRQHandler
+                0x00000230                BOD_IRQHandler
+                0x00000230                PLL1_IRQHandler
+                0x00000230                WDT_IRQHandler
+                0x00000230                PWM1_IRQHandler
+                0x00000230                QEI_IRQHandler
+                0x00000230                EINT0_IRQHandler
+                0x00000230                CAN_IRQHandler
+                0x00000230                DMA_IRQHandler
+                0x00000230                TIMER2_IRQHandler
+                0x00000230                UART3_IRQHandler
+                0x00000230                MCPWM_IRQHandler
+                0x00000230                ENET_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000238       0xc4 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.main     0x00000300       0x10 ./src/FinalProject.o
+                0x00000300                main
+ .text.SystemInit
+                0x00000310       0xe4 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000310                SystemInit
+ .text.__weak_main
+                0x000003f4        0x4 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x000003f4                __weak_main
+                0x000003f4                __main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x000003f8                . = ALIGN (0x4)
+
+.glue_7         0x000003f8        0x0
+ .glue_7        0x000003f8        0x0 linker stubs
+
+.glue_7t        0x000003f8        0x0
+ .glue_7t       0x000003f8        0x0 linker stubs
+
+.vfp11_veneer   0x000003f8        0x0
+ .vfp11_veneer  0x000003f8        0x0 linker stubs
+
+.v4_bx          0x000003f8        0x0
+ .v4_bx         0x000003f8        0x0 linker stubs
+
+.iplt           0x000003f8        0x0
+ .iplt          0x000003f8        0x0 ./src/FinalProject.o
+
+.rel.dyn        0x000003f8        0x0
+ .rel.iplt      0x000003f8        0x0 ./src/FinalProject.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000003f8                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000003f8                __exidx_end = .
+                0x000003f8                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x000003f8
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x000003f8
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+
+.igot.plt       0x10000000        0x0 load address 0x000003f8
+ .igot.plt      0x10000000        0x0 ./src/FinalProject.o
+
+.bss_RAM2       0x2007c000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000000        0x0
+                0x10000000                _bss = .
+ *(.bss*)
+ *(COMMON)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x10000000        0x0
+                0x10000000                _noinit = .
+ *(.noinit*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_noinit = .
+                [!provide]                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0xefff74b2                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+OUTPUT(FinalProject.axf elf32-littlearm)
+
+.debug_info     0x00000000      0xcd2
+ .debug_info    0x00000000      0x728 ./src/FinalProject.o
+ .debug_info    0x00000728      0x253 ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x0000097b       0x3f ./src/crp.o
+ .debug_info    0x000009ba      0x318 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_abbrev   0x00000000      0x3b2
+ .debug_abbrev  0x00000000      0x1a1 ./src/FinalProject.o
+ .debug_abbrev  0x000001a1       0xf5 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x00000296       0x36 ./src/crp.o
+ .debug_abbrev  0x000002cc       0xe6 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_aranges  0x00000000      0x108
+ .debug_aranges
+                0x00000000       0x48 ./src/FinalProject.o
+ .debug_aranges
+                0x00000048       0x80 ./src/cr_startup_lpc175x_6x.o
+ .debug_aranges
+                0x000000c8       0x18 ./src/crp.o
+ .debug_aranges
+                0x000000e0       0x28 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_ranges   0x00000000       0xc0
+ .debug_ranges  0x00000000       0x38 ./src/FinalProject.o
+ .debug_ranges  0x00000038       0x70 ./src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x000000a8       0x18 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_macro    0x00000000     0x2992
+ .debug_macro   0x00000000       0xa8 ./src/FinalProject.o
+ .debug_macro   0x000000a8      0x88c ./src/FinalProject.o
+ .debug_macro   0x00000934       0x1c ./src/FinalProject.o
+ .debug_macro   0x00000950       0x2e ./src/FinalProject.o
+ .debug_macro   0x0000097e       0x10 ./src/FinalProject.o
+ .debug_macro   0x0000098e      0x12d ./src/FinalProject.o
+ .debug_macro   0x00000abb      0x5b2 ./src/FinalProject.o
+ .debug_macro   0x0000106d       0x18 ./src/FinalProject.o
+ .debug_macro   0x00001085      0x7af ./src/FinalProject.o
+ .debug_macro   0x00001834      0x2c7 ./src/FinalProject.o
+ .debug_macro   0x00001afb       0x63 ./src/FinalProject.o
+ .debug_macro   0x00001b5e       0xe4 ./src/FinalProject.o
+ .debug_macro   0x00001c42       0x46 ./src/FinalProject.o
+ .debug_macro   0x00001c88      0x2ae ./src/FinalProject.o
+ .debug_macro   0x00001f36       0x40 ./src/FinalProject.o
+ .debug_macro   0x00001f76       0x1d ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00001f93       0x1a ./src/crp.o
+ .debug_macro   0x00001fad       0x34 ./src/crp.o
+ .debug_macro   0x00001fe1      0x12b C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000210c      0x886 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_line     0x00000000      0x611
+ .debug_line    0x00000000      0x2f1 ./src/FinalProject.o
+ .debug_line    0x000002f1       0xd5 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x000003c6       0x78 ./src/crp.o
+ .debug_line    0x0000043e      0x1d3 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_str      0x00000000     0xa9f7
+ .debug_str     0x00000000     0xa214 ./src/FinalProject.o
+                               0xa29f (size before relaxing)
+ .debug_str     0x0000a214      0x1c2 ./src/cr_startup_lpc175x_6x.o
+                               0x26d5 (size before relaxing)
+ .debug_str     0x0000a3d6       0xe9 ./src/crp.o
+                               0x25ed (size before relaxing)
+ .debug_str     0x0000a4bf      0x538 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                               0x8160 (size before relaxing)
+
+.comment        0x00000000       0xdc
+ .comment       0x00000000       0x6e ./src/FinalProject.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./src/cr_startup_lpc175x_6x.o
+ .comment       0x0000006e       0x6f ./src/crp.o
+ .comment       0x0000006e       0x6f C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x0000006e       0x6e c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                                 0x6f (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 ./src/FinalProject.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/cr_startup_lpc175x_6x.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/crp.o
+ .ARM.attributes
+                0x00000099       0x33 C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .ARM.attributes
+                0x000000cc       0x33 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x28c
+ .debug_frame   0x00000000       0xe0 ./src/FinalProject.o
+ .debug_frame   0x000000e0      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x00000250       0x3c C:\Users\Icomp2015\Desktop\EDigial III 2019\02PARTE\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
