@@ -1,7 +1,7 @@
 /*
 ===============================================================================
  Name        : FinalProject.c
- Authors      : $(author)
+ Author      : $(author)
  Version     :
  Copyright   : $(copyright)
  Description : main definition
@@ -24,7 +24,6 @@ void configDAC();
 void configADC();
 void configUART();
 void configPIN();
-void UART_IntReceive();
 /**************************Main Program****************************/
 int main(){
 	while(TRUE){}
@@ -114,6 +113,5 @@ void UART_IntReceive(void){
 	UART_Receive(LPC_UART0, info, sizeof(info), NONE_BLOCKING);
 	return;
 	*/
-	return;
 }
 
