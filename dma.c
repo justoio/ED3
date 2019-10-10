@@ -13,15 +13,10 @@
 #include "lpc17xx_dac.h"
 #define TRUE 1
 #define FALSE 0
-#define LOW	0
-#define HIGH 1
-#define PIN22 (uint32_t)(1<<22)
-#define PORT0 (uint8_t)((0))
-#define OUTPUT (uint8_t)((1))
 void configDMA(uint32_t*);
 void configDAC();
 void configPIN();
-void loadTABLA();
+void loadTABLA(uint32_t*);
 /*********************************************************************
  * @brief
  * @param[in]     None
