@@ -2,15 +2,16 @@
 ===============================================================================
  Name        : dma.c
  Author      : @justoio
- Version     : 
+ Version     :
  Copyright   : $(copyright)
  Description : Genera una señal escalera en el PIN0.26 usando DMA para mover
- 		datos desde memoria (un array) a un periférico (DAC).
+ 				datos desde memoria (un array) a un periférico (DAC).
 ===============================================================================
 */
 #include "LPC17xx.h"
 #include "lpc17xx_gpdma.h"
 #include "lpc17xx_dac.h"
+#include "lpc17xx_pinsel.h"
 #define TRUE 1
 #define FALSE 0
 void configDMA(uint32_t*);
@@ -77,7 +78,7 @@ void configDAC(){
 	DAC_Struct.CNT_ENA =SET;		//Activa el modo timeout
 	DAC_Struct.DMA_ENA = SET;		//Activa el modo
 	DAC_Init(LPC_DAC);
-	DAC_ConfigDAConverterControl(LPC_DAC, &DAC_Struct);	
+	DAC_ConfigDAConverterControl(LPC_DAC, &DAC_Struct);
 return;}
 /*********************************************************************
  * @brief
@@ -115,5 +116,5 @@ void loadTABLA(uint32_t* TABLA_DAC){
 			TABLA_DAC[i] = 1000;
 		}
 		TABLA_DAC[i] = (TABLA_DAC[i]<<6);
-	}	
+	}
 return;}
