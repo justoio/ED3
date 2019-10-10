@@ -1,10 +1,11 @@
 /*
 ===============================================================================
- Name        : FinalProject.c
+ Name        : dma.c
  Author      : @justoio
  Version     : 
  Copyright   : $(copyright)
- Description : main definition
+ Description : Genera una señal escalera en el PIN0.26 usando DMA para mover
+ 		datos desde memoria (un array) a un periférico (DAC).
 ===============================================================================
 */
 #include "LPC17xx.h"
@@ -108,25 +109,16 @@ void configPIN(){
  **********************************************************************/
 void loadTABLA(uint32_t* TABLA_DAC){
 	uint32_t i;
-	for(i=0;i<NUMERO_MUESTRAS;i++)
-		{
-			if(i<=15)	//De 0 a 90º
-			{
-				TABLA_DAC[i] = 0;
-				//if(i==15) TABLA_DAC[i]= 1023;
-			}
-			else if(i<=30)	//De 90º a 180º
-			{
-				TABLA_DAC[i] = 500;
-			}
-			else if(i<=45)	//De 180º a 270º
-			{
-				TABLA_DAC[i] = 750;
-			}
-			else	//De 270º a 360º
-			{
-				TABLA_DAC[i] = 1000;
-			}
-			TABLA_DAC[i] = (TABLA_DAC[i]<<6);
+	for(i=0;i<60;i++){
+		if(i<=15){
+			TABLA_DAC[i] = 0;
+		}else if(i<=30){
+			TABLA_DAC[i] = 500;
+		}else if(i<=45){
+			TABLA_DAC[i] = 750;
+		}else{
+			TABLA_DAC[i] = 1000;
+		}
+		TABLA_DAC[i] = (TABLA_DAC[i]<<6);
 	}	
 return;}
