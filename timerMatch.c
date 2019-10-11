@@ -5,6 +5,12 @@
  Version     :
  Copyright   : $(copyright)
  Description : Timer0 con Match para parpadear un led en PIN0.22
+ 	       El led se encuentra 40ms en alto y 40ms en bajo.
+Timer Calculation:
+CLK = 100Mz  =>  PCLK=CLK/4=25Mz  => 1cycle=40ns 
+		1 TC ---> (PR+1)cycles = (100+1)cylces = 4.04us
+	    10000 TC ---> 40.4ms 
+Los  matchs se producen cada 40.4ms. Y cambian el estado del LED.
 ===============================================================================
 */
 #include "LPC17xx.h"
