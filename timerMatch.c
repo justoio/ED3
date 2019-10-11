@@ -49,7 +49,7 @@ int main(){
 void configTIMERS(){
     TIM_TIMERCFG_Type struct_timer;
     TIM_MATCHCFG_Type struct_match;
-    struct_timer.PrescaleOption=TIM_PRESCALE_USVAL;
+    struct_timer.PrescaleOption=TIM_PRESCALE_TICKVAL;
     struct_timer.PrescaleValue=100;
     struct_match.MatchChannel=0;
     struct_match.IntOnMatch=ENABLE;
