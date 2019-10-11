@@ -11,6 +11,7 @@ CLK = 100MHz  =>  PCLK=CLK/4=25MHz  => 1cycle=40ns
 		1 TC ---> (PR+1)cycles = (100+1)cylces = 4.04us
 	    10000 TC ---> 40.4ms 
 Los  matchs se producen cada 40.4ms. Y cambian el estado del LED.
+(Ej MatchValue=250000 y PR=100 entonces interrumpe cada 1seg)
 ===============================================================================
 */
 #include "LPC17xx.h"
