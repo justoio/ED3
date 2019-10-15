@@ -1,5 +1,5 @@
 /*
-TxRx cruzados entre 
+TxRx cruzados entre . No es necesario Vcc y GND en el conversor
 y Putty en /dev/ttyUSB0
 */
 #include "LPC17xx.h"
