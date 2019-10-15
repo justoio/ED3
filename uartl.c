@@ -1,5 +1,6 @@
 /*
 TxRx cruzados entre 
+y Putty en /dev/ttyUSB0
 */
 #include "LPC17xx.h"
 #include "lpc17xx_uart.h"
