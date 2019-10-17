@@ -10,9 +10,8 @@
 #define BUFFER_SIZE 0x40
 void confPin(void);
 void confSPI(void);
+void transmitir(uint16_t*,uint16_t*,uint32_t);
 int main (void){
-	SPI_DATA_SETUP_Type xferConfig;
-	uint32_t len=0;
 	uint16_t Tx_Buf[BUFFER_SIZE];
 	uint16_t Rx_Buf[BUFFER_SIZE];
 	confPin();
@@ -21,11 +20,7 @@ int main (void){
 		Tx_Buf[i] = i;
 		Rx_Buf[i] = 0;
 	}
-	xferConfig.tx_data = Tx_Buf;
-	xferConfig.rx_data = Rx_Buf;
-	xferConfig.length = BUFFER_SIZE;
-	len = SPI_ReadWrite(LPC_SPI, &xferConfig, SPI_TRANSFER_POLLING);
-	SPI_DeInit(LPC_SPI);
+	transmitir(Tx_Buf,Rx_Buf,0);
 	while(1){}
 return 0;}
 void confPin(void){
@@ -61,4 +56,12 @@ void confSPI(void){
 	SPI_ConfigStruct.Mode = SPI_MASTER_MODE;
 	// Initialize SPI peripheral with parameter given in structure above
 	SPI_Init(LPC_SPI, &SPI_ConfigStruct);
+return;}
+void transmitir(uint16_t* Tx_Buf,uint16_t* Rx_Buf,uint32_t len){
+	SPI_DATA_SETUP_Type xferConfig;
+	xferConfig.tx_data = Tx_Buf;
+	xferConfig.rx_data = Rx_Buf;
+	xferConfig.length = BUFFER_SIZE;
+	len = SPI_ReadWrite(LPC_SPI, &xferConfig, SPI_TRANSFER_POLLING);
+	SPI_DeInit(LPC_SPI);
 return;}
