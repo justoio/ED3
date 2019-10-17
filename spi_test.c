@@ -1,3 +1,7 @@
+/*Bridge between MISO and MOSI
+  SSEL -- Air
+  PCLK -- Airs
+*/
 #include "LPC17xx.h"
 #include "lpc17xx_spi.h"
 #include "lpc17xx_gpio.h"
