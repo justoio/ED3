@@ -1,7 +1,7 @@
 /*
 ===============================================================================
  Name        : FinalProject.c
- Author      : $(author)
+ Authors      : $(author)
  Version     :
  Copyright   : $(copyright)
  Description : main definition
@@ -17,13 +17,15 @@
 #include "lpc17xx_pinsel.h"
 #define TRUE 1
 #define FALSE 1
+#include "imp_adc.h"
 void configTIMERS();
 void configGPIO();
 void configDMA();
 void configDAC();
-void configADC();
+
 void configUART();
 void configPIN();
+void UART_IntReceive();
 /**************************Main Program****************************/
 int main(){
 	while(TRUE){}
@@ -93,7 +95,7 @@ void UART0_IRQHandler(void){
 		// Evalúa Line Status
 		if (tmp == UART_IIR_INTID_RLS){
 				tmp1 = UART_GetLineStatus(LPC_UART0);
-				tmp1 &= (UART_LSR_OE | UART_LSR_PE | UART_LSR_FE \ | UART_LSR_BI | UART_LSR_RXFE);
+				tmp1 &= (UART_LSR_OE | UART_LSR_PE | UART_LSR_FE  | UART_LSR_BI | UART_LSR_RXFE);
 				// ingresa a un Loop infinito si hay error
 				if (tmp1) {
 						while(1){};
@@ -106,5 +108,13 @@ void UART0_IRQHandler(void){
 		}
 		return;
 }
+/*************************Others********************************************/
 
+void UART_IntReceive(void){
+	/*
+	UART_Receive(LPC_UART0, info, sizeof(info), NONE_BLOCKING);
+	return;
+	*/
+	return;
+}
 

@@ -12,7 +12,8 @@ src/FinalProject.o src/FinalProject.d: ../src/FinalProject.c \
  C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Drivers\inc/lpc17xx_adc.h \
  C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Drivers\inc/lpc17xx_uart.h \
  C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Drivers\inc/lpc17xx_pinsel.h \
- C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\inc/lpc17xx.h
+ C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\inc/lpc17xx.h \
+ ../src/imp_adc.h
 
 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\inc/LPC17xx.h:
 
@@ -41,3 +42,5 @@ C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Drivers\i
 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Drivers\inc/lpc17xx_pinsel.h:
 
 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\inc/lpc17xx.h:
+
+../src/imp_adc.h:

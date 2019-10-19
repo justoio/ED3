@@ -17,17 +17,19 @@
 #include "lpc17xx_pinsel.h"
 #define TRUE 1
 #define FALSE 1
+#include "imp_adc.h"
 void configTIMERS();
 void configGPIO();
 void configDMA();
 void configDAC();
-void configADC();
+
 void configUART();
 void configPIN();
 void UART_IntReceive();
 /**************************Main Program****************************/
 int main(){
 	while(TRUE){}
+	configADC();
     return FALSE;
 }
 /**************************Configurations****************************/
@@ -83,7 +85,6 @@ void configUART(){
 }
 void configGPIO(){return;}
 void configDAC(){return;}
-void configADC(){return;}
 void configPIN(){return;}
 /**************************Handlers****************************/
 void UART0_IRQHandler(void){

@@ -53,8 +53,6 @@ Discarded input sections
                 0x00000000        0xc ./src/FinalProject.o
  .text.configDAC
                 0x00000000        0xc ./src/FinalProject.o
- .text.configADC
-                0x00000000        0xc ./src/FinalProject.o
  .text.configPIN
                 0x00000000        0xc ./src/FinalProject.o
  .group         0x00000000        0x8 ./src/cr_startup_lpc175x_6x.o
@@ -68,6 +66,25 @@ Discarded input sections
  .data          0x00000000        0x0 ./src/crp.o
  .bss           0x00000000        0x0 ./src/crp.o
  .debug_macro   0x00000000      0x88c ./src/crp.o
+ .group         0x00000000        0x8 ./src/imp_adc.o
+ .text          0x00000000        0x0 ./src/imp_adc.o
+ .data          0x00000000        0x0 ./src/imp_adc.o
+ .bss           0x00000000        0x0 ./src/imp_adc.o
+ .text.configADC
+                0x00000000        0xc ./src/imp_adc.o
+ .debug_info    0x00000000       0x3b ./src/imp_adc.o
+ .debug_abbrev  0x00000000       0x2d ./src/imp_adc.o
+ .debug_aranges
+                0x00000000       0x20 ./src/imp_adc.o
+ .debug_ranges  0x00000000       0x10 ./src/imp_adc.o
+ .debug_macro   0x00000000       0x11 ./src/imp_adc.o
+ .debug_macro   0x00000000      0x88c ./src/imp_adc.o
+ .debug_line    0x00000000       0x40 ./src/imp_adc.o
+ .debug_str     0x00000000     0x24f9 ./src/imp_adc.o
+ .comment       0x00000000       0x6f ./src/imp_adc.o
+ .debug_frame   0x00000000       0x30 ./src/imp_adc.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/imp_adc.o
  .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .group         0x00000000        0x8 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
@@ -413,6 +430,7 @@ Linker script and memory map
 LOAD ./src/FinalProject.o
 LOAD ./src/cr_startup_lpc175x_6x.o
 LOAD ./src/crp.o
+LOAD ./src/imp_adc.o
 LOAD C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a
 START GROUP
 LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
@@ -629,93 +647,93 @@ END GROUP
                 0xefff74b2                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
 OUTPUT(FinalProject.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x2d49
- .debug_info    0x00000000      0xafe ./src/FinalProject.o
- .debug_info    0x00000afe      0x253 ./src/cr_startup_lpc175x_6x.o
- .debug_info    0x00000d51       0x3f ./src/crp.o
- .debug_info    0x00000d90      0x318 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_info    0x000010a8       0xc3 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_info    0x0000116b     0x1bde C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
+.debug_info     0x00000000     0x2d21
+ .debug_info    0x00000000      0xad6 ./src/FinalProject.o
+ .debug_info    0x00000ad6      0x253 ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x00000d29       0x3f ./src/crp.o
+ .debug_info    0x00000d68      0x318 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_info    0x00001080       0xc3 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_info    0x00001143     0x1bde C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
 
-.debug_abbrev   0x00000000      0x82a
- .debug_abbrev  0x00000000      0x240 ./src/FinalProject.o
- .debug_abbrev  0x00000240       0xf5 ./src/cr_startup_lpc175x_6x.o
- .debug_abbrev  0x00000335       0x36 ./src/crp.o
- .debug_abbrev  0x0000036b       0xe6 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_abbrev  0x00000451       0x6f C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_abbrev  0x000004c0      0x36a C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
+.debug_abbrev   0x00000000      0x80b
+ .debug_abbrev  0x00000000      0x221 ./src/FinalProject.o
+ .debug_abbrev  0x00000221       0xf5 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x00000316       0x36 ./src/crp.o
+ .debug_abbrev  0x0000034c       0xe6 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_abbrev  0x00000432       0x6f C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_abbrev  0x000004a1      0x36a C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
 
-.debug_aranges  0x00000000      0x250
+.debug_aranges  0x00000000      0x248
  .debug_aranges
-                0x00000000       0x70 ./src/FinalProject.o
+                0x00000000       0x68 ./src/FinalProject.o
  .debug_aranges
-                0x00000070       0x80 ./src/cr_startup_lpc175x_6x.o
+                0x00000068       0x80 ./src/cr_startup_lpc175x_6x.o
  .debug_aranges
-                0x000000f0       0x18 ./src/crp.o
+                0x000000e8       0x18 ./src/crp.o
  .debug_aranges
-                0x00000108       0x28 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000100       0x28 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .debug_aranges
-                0x00000130       0x20 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+                0x00000128       0x20 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
  .debug_aranges
-                0x00000150      0x100 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
+                0x00000148      0x100 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
 
-.debug_ranges   0x00000000      0x240
- .debug_ranges  0x00000000       0x60 ./src/FinalProject.o
- .debug_ranges  0x00000060       0x70 ./src/cr_startup_lpc175x_6x.o
- .debug_ranges  0x000000d0       0x18 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_ranges  0x000000e8       0x10 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_ranges  0x000000f8      0x148 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
+.debug_ranges   0x00000000      0x238
+ .debug_ranges  0x00000000       0x58 ./src/FinalProject.o
+ .debug_ranges  0x00000058       0x70 ./src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x000000c8       0x18 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_ranges  0x000000e0       0x10 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_ranges  0x000000f0      0x148 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
 
-.debug_macro    0x00000000     0x3492
- .debug_macro   0x00000000       0xd9 ./src/FinalProject.o
- .debug_macro   0x000000d9      0x88c ./src/FinalProject.o
- .debug_macro   0x00000965       0x1c ./src/FinalProject.o
- .debug_macro   0x00000981       0x2e ./src/FinalProject.o
- .debug_macro   0x000009af       0x10 ./src/FinalProject.o
- .debug_macro   0x000009bf      0x12d ./src/FinalProject.o
- .debug_macro   0x00000aec      0x5b2 ./src/FinalProject.o
- .debug_macro   0x0000109e       0x18 ./src/FinalProject.o
- .debug_macro   0x000010b6      0x7af ./src/FinalProject.o
- .debug_macro   0x00001865      0x2c7 ./src/FinalProject.o
- .debug_macro   0x00001b2c       0x63 ./src/FinalProject.o
- .debug_macro   0x00001b8f       0xe4 ./src/FinalProject.o
- .debug_macro   0x00001c73       0x46 ./src/FinalProject.o
- .debug_macro   0x00001cb9      0x2ae ./src/FinalProject.o
- .debug_macro   0x00001f67       0x40 ./src/FinalProject.o
- .debug_macro   0x00001fa7       0xeb ./src/FinalProject.o
- .debug_macro   0x00002092      0x33a ./src/FinalProject.o
- .debug_macro   0x000023cc      0x13f ./src/FinalProject.o
- .debug_macro   0x0000250b       0x1d ./src/cr_startup_lpc175x_6x.o
- .debug_macro   0x00002528       0x1a ./src/crp.o
- .debug_macro   0x00002542       0x34 ./src/crp.o
- .debug_macro   0x00002576      0x12b C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x000026a1      0x886 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00002f27       0x5a C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_macro   0x00002f81       0x5d C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_macro   0x00002fde       0xd7 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_macro   0x000030b5       0xa9 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
- .debug_macro   0x0000315e      0x334 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
+.debug_macro    0x00000000     0x349c
+ .debug_macro   0x00000000       0xe3 ./src/FinalProject.o
+ .debug_macro   0x000000e3      0x88c ./src/FinalProject.o
+ .debug_macro   0x0000096f       0x1c ./src/FinalProject.o
+ .debug_macro   0x0000098b       0x2e ./src/FinalProject.o
+ .debug_macro   0x000009b9       0x10 ./src/FinalProject.o
+ .debug_macro   0x000009c9      0x12d ./src/FinalProject.o
+ .debug_macro   0x00000af6      0x5b2 ./src/FinalProject.o
+ .debug_macro   0x000010a8       0x18 ./src/FinalProject.o
+ .debug_macro   0x000010c0      0x7af ./src/FinalProject.o
+ .debug_macro   0x0000186f      0x2c7 ./src/FinalProject.o
+ .debug_macro   0x00001b36       0x63 ./src/FinalProject.o
+ .debug_macro   0x00001b99       0xe4 ./src/FinalProject.o
+ .debug_macro   0x00001c7d       0x46 ./src/FinalProject.o
+ .debug_macro   0x00001cc3      0x2ae ./src/FinalProject.o
+ .debug_macro   0x00001f71       0x40 ./src/FinalProject.o
+ .debug_macro   0x00001fb1       0xeb ./src/FinalProject.o
+ .debug_macro   0x0000209c      0x33a ./src/FinalProject.o
+ .debug_macro   0x000023d6      0x13f ./src/FinalProject.o
+ .debug_macro   0x00002515       0x1d ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00002532       0x1a ./src/crp.o
+ .debug_macro   0x0000254c       0x34 ./src/crp.o
+ .debug_macro   0x00002580      0x12b C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x000026ab      0x886 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00002f31       0x5a C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x00002f8b       0x5d C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x00002fe8       0xd7 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x000030bf       0xa9 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
+ .debug_macro   0x00003168      0x334 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
 
-.debug_line     0x00000000     0x100e
- .debug_line    0x00000000      0x386 ./src/FinalProject.o
- .debug_line    0x00000386       0xd5 ./src/cr_startup_lpc175x_6x.o
- .debug_line    0x0000045b       0x78 ./src/crp.o
- .debug_line    0x000004d3      0x1d3 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_line    0x000006a6      0x193 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_line    0x00000839      0x7d5 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
+.debug_line     0x00000000     0x1009
+ .debug_line    0x00000000      0x381 ./src/FinalProject.o
+ .debug_line    0x00000381       0xd5 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x00000456       0x78 ./src/crp.o
+ .debug_line    0x000004ce      0x1d3 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_line    0x000006a1      0x193 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_line    0x00000834      0x7d5 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
 
-.debug_str      0x00000000     0xeb7f
- .debug_str     0x00000000     0xc825 ./src/FinalProject.o
-                               0xc8b0 (size before relaxing)
- .debug_str     0x0000c825      0x222 ./src/cr_startup_lpc175x_6x.o
-                               0x26d5 (size before relaxing)
- .debug_str     0x0000ca47       0xe9 ./src/crp.o
-                               0x25ed (size before relaxing)
- .debug_str     0x0000cb30      0x515 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_str      0x00000000     0xeb21
+ .debug_str     0x00000000     0xc827 ./src/FinalProject.o
+                               0xc8b2 (size before relaxing)
+ .debug_str     0x0000c827      0x1c2 ./src/cr_startup_lpc175x_6x.o
+                               0x26bc (size before relaxing)
+ .debug_str     0x0000c9e9       0xe9 ./src/crp.o
+                               0x25d4 (size before relaxing)
+ .debug_str     0x0000cad2      0x515 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
                                0x8147 (size before relaxing)
- .debug_str     0x0000d045      0x1a0 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_str     0x0000cfe7      0x1a0 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
                                0x3f61 (size before relaxing)
- .debug_str     0x0000d1e5     0x199a C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
+ .debug_str     0x0000d187     0x199a C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
                                0xb407 (size before relaxing)
 
 .comment        0x00000000       0xdc
@@ -746,12 +764,12 @@ OUTPUT(FinalProject.axf elf32-littlearm)
  .ARM.attributes
                 0x00000132       0x33 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
 
-.debug_frame    0x00000000      0x678
- .debug_frame   0x00000000      0x180 ./src/FinalProject.o
- .debug_frame   0x00000180      0x170 ./src/cr_startup_lpc175x_6x.o
- .debug_frame   0x000002f0       0x3c C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_frame   0x0000032c       0x20 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_frame   0x0000034c      0x32c C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
+.debug_frame    0x00000000      0x658
+ .debug_frame   0x00000000      0x160 ./src/FinalProject.o
+ .debug_frame   0x00000160      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x000002d0       0x3c C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_frame   0x0000030c       0x20 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_frame   0x0000032c      0x32c C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)
 
 .debug_loc      0x00000000     0x12a0
  .debug_loc     0x00000000     0x12a0 C:\Users\Icomp2015\Desktop\ED3\workspace_LPCXpresso\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_uart.o)

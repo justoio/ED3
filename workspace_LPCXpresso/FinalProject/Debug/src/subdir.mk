@@ -6,17 +6,20 @@
 C_SRCS += \
 ../src/FinalProject.c \
 ../src/cr_startup_lpc175x_6x.c \
-../src/crp.c 
+../src/crp.c \
+../src/imp_adc.c 
 
 OBJS += \
 ./src/FinalProject.o \
 ./src/cr_startup_lpc175x_6x.o \
-./src/crp.o 
+./src/crp.o \
+./src/imp_adc.o 
 
 C_DEPS += \
 ./src/FinalProject.d \
 ./src/cr_startup_lpc175x_6x.d \
-./src/crp.d 
+./src/crp.d \
+./src/imp_adc.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
